@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#contenedor{
+    /* border: solid; */
+    height: 90vh;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#productox{
+    padding-top: 2.5rem;
+    /* border: solid red 1px; */
+    height: 80vh;
+    width: 40vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10rem;
+    min-width: 450px;
+      
+}
+.subtext{
+    /* border: solid violet; */
+    width: 50vw;
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+
+}
+body{
+    /* background-image:   url(banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; */
+    background-color: rgb(220, 220, 220);
+  
+}
+
+
+.alinear{
+    /* border: solid; */
+    display: flex;
+    width: 25rem;
+    
+}
+.item_price{
+    font-weight: bold;
+    margin-top: 1rem   ;
+}
+.item_description{
+   
+    margin-top: 1rem;
+}  
+button{
+    background-color: rgb(200, 180, 180);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+    margin-top: 4rem;
+
+}
+#contador_productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: .8rem;
+}
